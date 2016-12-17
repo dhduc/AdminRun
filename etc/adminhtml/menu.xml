@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Smart. All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Backend/etc/menu.xsd">
+    <menu>
+        <add id="Smart_AdminRun::smart_adminrungrid_main" title="AdminRun" module="Smart_AdminRun"  sortOrder="200" dependsOnModule="Smart_AdminRun" parent="Magento_Backend::system" resource="Smart_AdminRun::smart_adminrungrid_main"/>
+        <add id="Smart_AdminRun::smart_adminrungrid_index" title="Tasks" module="Smart_AdminRun"  sortOrder="10" dependsOnModule="Smart_AdminRun" action="adminrun/adminrungrid/index" parent="Smart_AdminRun::smart_adminrungrid_main" resource="Smart_AdminRun::smart_adminrungrid_index"/>
+    </menu>
+</config>

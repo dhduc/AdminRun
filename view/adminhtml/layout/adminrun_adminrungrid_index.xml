@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+    <head>
+        <link src="Smart_AdminRun::css/prism.css"/>
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <block class="Smart\AdminRun\Block\Adminhtml\AdminRun" name="adminrun_container"/>
+            <block class="Smart\AdminRun\Block\Adminhtml\Result" name="adminrun_result" template="result_modal.phtml"/>
+        </referenceContainer>
+    </body>
+</page>
